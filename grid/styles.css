@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    min-height: 600px;
+    border: 3px solid black;
+    display: grid;
+}
+
+.element1 {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+
+.element2 {}
+
+.element3 {}
+
+.element4 {}
+
+.element5 {}
+
+.element6 {}
