@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.telefono{
+    width: 200px;
+    height: 450px;
+    border: 10px solid black;
+    border-radius: 30px;
+    background-color: #3A3A3B;
+}
+.notificaciones{
+    margin: 0;
+    width: 200px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hora{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 8px;
+    color: #FFF0C9;
+}
+.containerNot{
+    margin-right: 10px;
+}
+svg{
+    height: 8px; 
+    fill: #FFF0C9;
+}
+
+
+.pantalla{
+    margin-top: 30px;
+    width: 200px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+    
+}
+
+.result{
+    color: #FFF0C9;
+    font-size: 30px;
+}
+
+.botones{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 180px;
+    height: 230px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:stretch;
+    font-weight:400
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    border-radius: 50px;
+    width: 35px;
+    height:35px;
+    
+}
+
+.cero{
+    width: 90px;
+}
+.blue{
+    background-color: #08C7BB;
+}
+.yellow{
+    background-color: #FFDC60;
+}
+
+.purple{
+    background-color: #EB7FF4;
+}
+.green{
+    background-color: #63FF60;
+}
+.boton:hover{
+    background-color: #f7f7f79d;
+    cursor:default
+}

@@ -19,21 +19,36 @@ body {
     min-height: 600px;
     border: 3px solid black;
     display: grid;
+
+    grid-template-rows: repeat(auto-fit, minmax(250px, 300px));
 }
 
-.element1 {
-    display: flex;
-    background-color: antiquewhite;
+.element {
+    display: grid;
     justify-content: center;
     align-items: center;
 }
 
-.element2 {}
+.element1 {
+    background-color: antiquewhite;
+}
 
-.element3 {}
+.element2 {
+    background-color: aqua;
+}
 
-.element4 {}
+.element3 {
+    background-color: blue;
+}
 
-.element5 {}
+.element4 {
+    background-color: yellowgreen;
+}
 
-.element6 {}
+.element5 {
+    background-color: blueviolet;
+}
+
+.element6 {
+    background-color: tomato;
+}
